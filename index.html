@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .especial{
+            background: #43CBE8;
+            text-align: center;
+            color: #fff;
+        }
+
+        .programas__titulo{
+            font-size: 30px;
+            padding: 25px;
+        }
+
+        .especial .contenedor{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .contenedor{
+            margin: 100%;
+            margin: auto;
+        }
+
+        .especial__titulo{
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .button{
+            padding: 15px;
+            margin: 15px;
+            font-size: 20px;
+            background: #21aedb;
+            border: 0;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+        }
+        .informacion{
+            margin-top: -6px;
+            background: #fff;
+            color: #000;
+        }
+
+        .especial__columna1,
+        .especial__columna2,
+        .especial__columna3{
+            margin: 15px;
+        }
+
+        .especial__img{
+            width: 100%;
+        }
+
+        body{
+            font-family: sans-serif;
+
+        }
+
+        .destino .contenedor{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+    <section class="especial">
+        <h3 class="programas__titulo">PRODUCTOS</h3>
+        <div class="contenedor">
+            <article class="especial__columna1">
+                <img src="./pep.jpg" alt="" class="especial__img">
+                <div class="informacion">
+                    <h3 class="especial__titulo">COMPUTADORA HP</h3>
+                    <button class="button">$500 AHORA</button>
+                </div>
+            </article>
+            <article class="especial__columna2">
+                <img src="./acer.jpg" alt="" class="especial__img">
+                <div class="informacion">
+                    <h3 class="especial__titulo">COMPUTADORA ACER</h3>
+                    <button class="button">$400 AHORA</button>
+                </div>
+            </article>
+
+            <article class="especial__columna3">
+                <img src="./tec.jpg" alt="" class="especial__img">
+                <div class="informacion">
+                    <h3 class="especial__titulo">COMPUTADORA LENOVO</h3>
+                    <button class="button">$500 AHORA</button>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+
+</html>
